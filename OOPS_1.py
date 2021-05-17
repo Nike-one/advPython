@@ -1,3 +1,4 @@
+#Counting students using class variable, creating object of class and assigning attributes to it using __init__()
 class Student:
     studentCount = 0
     markslst = []
@@ -18,7 +19,7 @@ s1 = Student("joe",45,48,42)
 s2 = Student("mary",42,45,48)
 s3 = Student("riya",34,45,42)
 
+print("Number of Students: ",Student.studentCount)
 s1.display()
 s2.display()
 s3.display()
-print("Number of Students: ",Student.studentCount)
